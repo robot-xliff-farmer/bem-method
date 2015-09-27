@@ -1,103 +1,196 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" version="1.2">
-  <file original="method/filesystem/filesystem.ru.md.html" source-language="ru" target-language="en" datatype="html" build-num="537">
+  <file original="method/filesystem/filesystem.ru.md.html" source-language="ru" target-language="en" datatype="html" build-num="545">
     <body>
       <trans-unit id="tu1" resname="---id" restype="x-h1" xml:space="preserve" approved="yes"><source xml:lang="ru">Организация файловой системы</source><target state="translated" xml:lang="en">File system organization</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu2" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Принятый в методологии БЭМ компонентный подход применяется и к организации БЭМ-проектов в файловой системе. В БЭМ не только интерфейс делится на независимые компоненты — блоки, но и реализация блоков делится на независимые части — файлы.</source><target state="translated" xml:lang="en">A component-based approach used in the BEM methodology also determines the way that BEM projects are organized in a file system. In BEM, it's not just the interface that is divided into independent components, i.e. blocks, but the implementation of blocks is also divided into independent parts, namely files.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu3" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">На этой странице вы найдете:</source><target state="translated" xml:lang="en">Below on this page you will find:</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu4" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Принципы-организации-файловой-системы-БЭМ-проекта"&gt;</bpt>Принципы организации файловой системы<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#bem-project-file-system-organization-principles"&gt;</bpt>Principles of file system organization<ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="6" match-quality="74" tool="Swordfish">
+      <trans-unit id="tu2" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Принятый в методологии БЭМ компонентный подход применяется и к организации БЭМ-проектов в файловой системе. В БЭМ не только интерфейс делится на независимые компоненты — блоки, но и реализация блоков делится на независимые части — файлы.</source>
+<target state="translated" xml:lang="en">A component-based approach used in the BEM methodology also determines the way that BEM projects are organized in a file system. In BEM, it's not just the interface that is divided into independent components, i.e. blocks, but the implementation of blocks is also divided into independent parts, namely files.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu3" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">На этой странице вы найдете:</source>
+<target state="translated" xml:lang="en">Below on this page you will find:</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu4" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;a href="#Принципы-организации-файловой-системы-БЭМ-проекта"&gt;</bpt>Принципы организации файловой системы<ept id="1">&lt;/a&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#bem-project-file-system-organization-principles"&gt;</bpt>Principles of file system organization<ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu5" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;a href="#Организация-файловой-системы-БЭМ-проекта"&gt;</bpt>Пример файловой системы БЭМ-проекта<ept id="1">&lt;/a&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#bem-project-file-system-organization"&gt;</bpt>Example of a file system for a BEM project<ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu6" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;a href="#Примеры-использования-уровней-переопределения"&gt;</bpt>Примеры использования уровней переопределения<ept id="1">&lt;/a&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#examples-of-using-redefinition-levels"&gt;</bpt>Examples of using redefinition levels<ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu7" resname="------id" restype="x-h2" xml:space="preserve" approved="yes">
 <source xml:lang="ru">Принципы организации файловой системы БЭМ-проекта</source>
 <target state="translated" xml:lang="en">Principles of file system organization for BEM projects</target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu5" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Организация-файловой-системы-БЭМ-проекта"&gt;</bpt>Пример файловой системы БЭМ-проекта<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#bem-project-file-system-organization"&gt;</bpt>Example of a file system for a BEM project<ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu6" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Примеры-использования-уровней-переопределения"&gt;</bpt>Примеры использования уровней переопределения<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#examples-of-using-redefinition-levels"&gt;</bpt>Examples of using redefinition levels<ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu7" resname="------id" restype="x-h2" xml:space="preserve" approved="yes"><source xml:lang="ru">Принципы организации файловой системы БЭМ-проекта</source><target state="translated" xml:lang="en">Principles of file system organization for BEM projects</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="3" match-quality="74" tool="Swordfish">
-<source xml:lang="ru"><bpt id="1">&lt;a href="#Принципы-организации-файловой-системы-БЭМ-проекта"&gt;</bpt>Принципы организации файловой системы<ept id="1">&lt;/a&gt;</ept></source>
-<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#bem-project-file-system-organization-principles"&gt;</bpt>File system organization principles<ept id="1">&lt;/a&gt;</ept></target>
-</alt-trans><alt-trans origin="autoFuzzy" ts="33" match-quality="75" tool="Swordfish">
-<source xml:lang="ru">Организация файловой системы БЭМ-проекта</source>
-<target state="translated" xml:lang="en">File system organization for a BEM project</target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu8" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">В БЭМ-проекте код разделяется на мелкие независимые части для удобства работы с отдельными блоками. Перед отправкой в браузер файлы собираются и оптимизируются. Таким образом мы разграничиваем код, с которым работают люди, и код, который передается в браузер.</source><target state="translated" xml:lang="en">In a BEM project, the code is broken down into small independent parts, to make working with individual blocks easier. Before they are sent to the browser, the files are assembled and optimized. That way we separate the human-manipulated code from the code that is sent to the browser.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu9" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">В файловой системе код БЭМ-проекта организован по следующим принципам:</source><target state="translated" xml:lang="en">In the file system, the codebase of any BEM project is organized according to the following principles:</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu10" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Реализация-блока-разделяется-на-отдельные-файлы"&gt;</bpt>Реализация блока разделяется на отдельные файлы<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#block-implementation-divided-into-separate-files"&gt;</bpt>A block implementation is divided into separate parts<ept id="1">&lt;/a&gt;</ept>.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu11" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Опциональные-элементы-и-модификаторы-выносятся-в-отдельные-файлы"&gt;</bpt>Опциональные элементы и модификаторы выносятся в отдельные файлы<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#optional-elements-and-modifiers-stored-in-separate-files"&gt;</bpt>Optional elements and modifiers are stored in separate files<ept id="1">&lt;/a&gt;</ept>.</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="18" match-quality="99" tool="Swordfish">
-<source xml:lang="ru">Опциональные элементы и модификаторы выносятся в отдельные файлы</source>
-<target state="translated" xml:lang="en">Optional elements and modifiers are stored in separate files</target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu12" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Файлы-объединяются-по-смыслу-а-не-по-типу"&gt;</bpt>Файлы объединяются по смыслу, а не по типу<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#files-grouped-per-meaning-not-type"&gt;</bpt>Files are grouped per meaning and not per type<ept id="1">&lt;/a&gt;</ept>.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu13" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Проект-разделяется-на-уровни-переопределения"&gt;</bpt>Проект разделяется на уровни переопределения<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#project-divided-into-redefinition-levels"&gt;</bpt>A project is divided into redefinition levels<ept id="1">&lt;/a&gt;</ept>.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu14" resname="------id" restype="x-h3" xml:space="preserve" approved="yes"><source xml:lang="ru">Реализация блока разделяется на отдельные файлы</source><target state="translated" xml:lang="en">A block implementation is divided into separate files</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="9" match-quality="99" tool="Swordfish">
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu8" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">В БЭМ-проекте код разделяется на мелкие независимые части для удобства работы с отдельными блоками. Перед отправкой в браузер файлы собираются и оптимизируются. Таким образом мы разграничиваем код, с которым работают люди, и код, который передается в браузер.</source>
+<target state="translated" xml:lang="en">In a BEM project, the code is broken down into small independent parts, to make working with individual blocks easier. Before they are sent to the browser, the files are assembled and optimized. That way we separate the human-manipulated code from the code that is sent to the browser.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu9" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">В файловой системе код БЭМ-проекта организован по следующим принципам:</source>
+<target state="translated" xml:lang="en">In the file system, the codebase of any BEM project is organized according to the following principles:</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu10" restype="x-li" xml:space="preserve" approved="yes">
 <source xml:lang="ru"><bpt id="1">&lt;a href="#Реализация-блока-разделяется-на-отдельные-файлы"&gt;</bpt>Реализация блока разделяется на отдельные файлы<ept id="1">&lt;/a&gt;</ept></source>
 <target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#block-implementation-divided-into-separate-files"&gt;</bpt>A block implementation is divided into separate parts<ept id="1">&lt;/a&gt;</ept>.</target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu15" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Набор файлов блока (например, <bpt id="1">&lt;code&gt;</bpt>input.css<ept id="1">&lt;/code&gt;</ept>, <bpt id="2">&lt;code&gt;</bpt>input.js<ept id="2">&lt;/code&gt;</ept>) зависит от <bpt id="3">&lt;a href="../definitions/definitions.ru.md#Технология-реализации"&gt;</bpt>технологий<ept id="3">&lt;/a&gt;</ept>, входящих в реализацию блока.</source><target state="translated" xml:lang="en">A file set for a block (e.g., <bpt id="1">&lt;code&gt;</bpt>input.css<ept id="1">&lt;/code&gt;</ept>, <bpt id="2">&lt;code&gt;</bpt>input.js<ept id="2">&lt;/code&gt;</ept>) is determined by the <bpt id="3">&lt;a href="../definitions/definitions.en.md#implementation-technology"&gt;</bpt>technologies<ept id="3">&lt;/a&gt;</ept> that make up the implementation of the block.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu16" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;em&gt;</bpt>Зачем?<ept id="1">&lt;/em&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;em&gt;</bpt>Why?<ept id="1">&lt;/em&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu17" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Улучшение навигации по проекту.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Структура проекта построена по единому принципу, а имена блоков уникальны. Это позволяет разработчикам быстро ориентироваться в разных частях проекта и находить нужные файлы.</source><target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Enhanced project navigation.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>The project structure is built on a single principle, and the block names are unique. This enables developers to easily identify different parts of the project and to find necessary files quicker.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu18" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Упрощение переноса блоков между проектами.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Реализация блоков разделена по отдельным файлам. При переносе блока из проекта в проект достаточно скопировать нужные файлы или директории.</source><target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Easier moving of blocks between projects.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>The implementation of blocks is divided into separate files. To move a block from one project to another, you only need to copy the relevant files or directories.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu19" resname="--------id" restype="x-h3" xml:space="preserve" approved="yes"><source xml:lang="ru">Опциональные элементы и модификаторы выносятся в отдельные файлы</source><target state="translated" xml:lang="en">Optional elements and modifiers are stored in separate files</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="10" match-quality="99" tool="Swordfish">
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu11" restype="x-li" xml:space="preserve" approved="yes">
 <source xml:lang="ru"><bpt id="1">&lt;a href="#Опциональные-элементы-и-модификаторы-выносятся-в-отдельные-файлы"&gt;</bpt>Опциональные элементы и модификаторы выносятся в отдельные файлы<ept id="1">&lt;/a&gt;</ept></source>
-<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#optional-elements-and-modifiers-stored-in-separate-files"&gt;</bpt>Optional elements and modifiers are stored in separate files<ept id="1">&lt;/a&gt;</ept></target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu20" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;em&gt;</bpt>Зачем?<ept id="1">&lt;/em&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;em&gt;</bpt>Why?<ept id="1">&lt;/em&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu21" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Подключение только нужной реализации блока.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>В сборку подключаются только файлы, действительно необходимые для данной реализации блока.</source><target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Only relevant block implementation is included<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Only files that are essential to a given block implementation are included in the build.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu22" restype="x-paragraph" xml:space="preserve" approved="yes">
-<source xml:lang="ru"><bpt id="1">&lt;a preserve="1" name="comb"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></source>
-   <target xml:lang="en" state="translated"><bpt id="1">&lt;a preserve="1" name="comb"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu23" resname="--------id" restype="x-h3" xml:space="preserve" approved="yes"><source xml:lang="ru">Файлы объединяются по смыслу, а не по типу</source><target state="translated" xml:lang="en">Files are grouped per meaning and not per type</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="11" match-quality="99" tool="Swordfish">
+<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#optional-elements-and-modifiers-stored-in-separate-files"&gt;</bpt>Optional elements and modifiers are stored in separate files<ept id="1">&lt;/a&gt;</ept>.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu12" restype="x-li" xml:space="preserve" approved="yes">
 <source xml:lang="ru"><bpt id="1">&lt;a href="#Файлы-объединяются-по-смыслу-а-не-по-типу"&gt;</bpt>Файлы объединяются по смыслу, а не по типу<ept id="1">&lt;/a&gt;</ept></source>
 <target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#files-grouped-per-meaning-not-type"&gt;</bpt>Files are grouped per meaning and not per type<ept id="1">&lt;/a&gt;</ept>.</target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu24" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Файлы блока группируются с помощью общих <bpt id="1">&lt;a href="../naming/naming-convention.ru.md"&gt;</bpt>правил именования<ept id="1">&lt;/a&gt;</ept>. Для удобства работы они могут быть объединены в директорию этого блока.</source><target state="translated" xml:lang="en">Block files are grouped together based on common <bpt id="1">&lt;a href="../naming/naming-convention.en.md"&gt;</bpt>naming rules<ept id="1">&lt;/a&gt;</ept>.  For convenience, they can be grouped into a block directory.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu25" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;em&gt;</bpt>Зачем?<ept id="1">&lt;/em&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;em&gt;</bpt>Why?<ept id="1">&lt;/em&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu26" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Подключение в проект только необходимых блоков.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Блоки реализованы независимо. Это позволяет настраивать сборку так, чтобы в проект попадали только нужные блоки.</source><target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Only necessary blocks are included in the project<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Blocks are implemented as independent enteties. This enables us to configure a build in a way that ensures that only relevant blocks are included in the project.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu27" restype="x-paragraph" xml:space="preserve" approved="yes">
-<source xml:lang="ru"><bpt id="1">&lt;a preserve="1" name="project-levels"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></source>
-   <target xml:lang="en" state="translated"><bpt id="1">&lt;a preserve="1" name="project-levels"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu28" resname="-----id" restype="x-h3" xml:space="preserve" approved="yes"><source xml:lang="ru">Проект разделяется на уровни переопределения</source><target state="translated" xml:lang="en">A project is divided into redefinition levels.</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="12" match-quality="99" tool="Swordfish">
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu13" restype="x-li" xml:space="preserve" approved="yes">
 <source xml:lang="ru"><bpt id="1">&lt;a href="#Проект-разделяется-на-уровни-переопределения"&gt;</bpt>Проект разделяется на уровни переопределения<ept id="1">&lt;/a&gt;</ept></source>
 <target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#project-divided-into-redefinition-levels"&gt;</bpt>A project is divided into redefinition levels<ept id="1">&lt;/a&gt;</ept>.</target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu29" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Конечная реализация блока может быть разделена по <bpt id="1">&lt;a href="#Примеры-использования-уровней-переопределения"&gt;</bpt>уровням переопределения<ept id="1">&lt;/a&gt;</ept>.</source><target state="translated" xml:lang="en">The final implementation of a block can be split into <bpt id="1">&lt;a href="#examples-of-using-redefinition-levels"&gt;</bpt>redefinition levels<ept id="1">&lt;/a&gt;</ept>.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu30" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;em&gt;</bpt>Зачем?<ept id="1">&lt;/em&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;em&gt;</bpt>Why?<ept id="1">&lt;/em&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu31" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Отсутствие дублирования кода.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Вынесение общей реализации для всех платформ на отдельный уровень позволяет избежать дублирования кода и сократить время на отладку проекта.</source><target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>No code duplication.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Storing implementation common to all platforms on a separate level helps avoid code duplication and reduce debugging time.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu32" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Переопределение и доопределение блоков готовых библиотек.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Изменение блока библиотеки не требует его копирования на уровень проекта. Достаточно создать требуемый файл с правками или новым кодом на другом уровне переопределения и подключить в сборку.<ph id="4">&lt;br&gt;</ph></source><target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Redefinition and extension of ready-made library blocks.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>To modify a library block, you don't need to copy it to the project level. You just need to create the necessary file with the changes or new code at another redefinition level and include it in the build.<ph id="4">&lt;br&gt;</ph></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu33" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Обновление подключенных в проект библиотек.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Разделение проекта на уровни позволяет изменять блоки, не затрагивая код библиотеки. При обновлении библиотеки модификация блоков сохраняется на другом уровне проекта.</source><target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Updating libraries linked to the project.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Dividing a project into distinct levels lets us modify blocks without affecting the library source code. If the library gets updated, the block modification is stored at a different level of the project.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu34" resname="-----id" restype="x-h2" xml:space="preserve" approved="yes"><source xml:lang="ru">Организация файловой системы БЭМ-проекта</source><target state="translated" xml:lang="en">File system organization for a BEM project</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="0" match-quality="70" tool="Swordfish">
-<source xml:lang="ru">Организация файловой системы</source>
-<target state="translated" xml:lang="en">File system organization</target>
-</alt-trans><alt-trans origin="autoFuzzy" ts="4" match-quality="72" tool="Swordfish">
-<source xml:lang="ru"><bpt id="1">&lt;a href="#Организация-файловой-системы-БЭМ-проекта"&gt;</bpt>Пример файловой системы БЭМ-проекта<ept id="1">&lt;/a&gt;</ept></source>
-<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#bem-project-file-system-organization"&gt;</bpt>Example of a BEM project file system<ept id="1">&lt;/a&gt;</ept></target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu35" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Блоку соответствует директория в файловой системе. Имена блока и его директории совпадают.</source><target state="translated" xml:lang="en">For every block, there's a directory in the file system. The directory is named after the block.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu36" restype="x-pre" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>blocks/
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu14" resname="------id" restype="x-h3" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Реализация блока разделяется на отдельные файлы</source>
+<target state="translated" xml:lang="en">A block implementation is divided into separate files</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu15" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Набор файлов блока (например, <bpt id="1">&lt;code&gt;</bpt>input.css<ept id="1">&lt;/code&gt;</ept>, <bpt id="2">&lt;code&gt;</bpt>input.js<ept id="2">&lt;/code&gt;</ept>) зависит от <bpt id="3">&lt;a href="../definitions/definitions.ru.md#Технология-реализации"&gt;</bpt>технологий<ept id="3">&lt;/a&gt;</ept>, входящих в реализацию блока.</source>
+<target state="translated" xml:lang="en">A file set for a block (e.g., <bpt id="1">&lt;code&gt;</bpt>input.css<ept id="1">&lt;/code&gt;</ept>, <bpt id="2">&lt;code&gt;</bpt>input.js<ept id="2">&lt;/code&gt;</ept>) is determined by the <bpt id="3">&lt;a href="../definitions/definitions.en.md#implementation-technology"&gt;</bpt>technologies<ept id="3">&lt;/a&gt;</ept> that make up the implementation of the block.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu16" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;em&gt;</bpt>Зачем?<ept id="1">&lt;/em&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;em&gt;</bpt>Why?<ept id="1">&lt;/em&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu17" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Улучшение навигации по проекту.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Структура проекта построена по единому принципу, а имена блоков уникальны. Это позволяет разработчикам быстро ориентироваться в разных частях проекта и находить нужные файлы.</source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Enhanced project navigation.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>The project structure is built on a single principle, and the block names are unique. This enables developers to easily identify different parts of the project and to find necessary files quicker.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu18" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Упрощение переноса блоков между проектами.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Реализация блоков разделена по отдельным файлам. При переносе блока из проекта в проект достаточно скопировать нужные файлы или директории.</source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Easier moving of blocks between projects.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>The implementation of blocks is divided into separate files. To move a block from one project to another, you only need to copy the relevant files or directories.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu19" resname="--------id" restype="x-h3" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Опциональные элементы и модификаторы выносятся в отдельные файлы</source>
+<target state="translated" xml:lang="en">Optional elements and modifiers are stored in separate files</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu20" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;em&gt;</bpt>Зачем?<ept id="1">&lt;/em&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;em&gt;</bpt>Why?<ept id="1">&lt;/em&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu21" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Подключение только нужной реализации блока.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>В сборку подключаются только файлы, действительно необходимые для данной реализации блока.</source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Only relevant block implementation is included<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Only files that are essential to a given block implementation are included in the build.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu22" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;a preserve="1" name="comb"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></source>
+<target xml:lang="en" state="translated"><bpt id="1">&lt;a preserve="1" name="comb"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu23" resname="--------id" restype="x-h3" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Файлы объединяются по смыслу, а не по типу</source>
+<target state="translated" xml:lang="en">Files are grouped per meaning and not per type</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu24" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Файлы блока группируются с помощью общих <bpt id="1">&lt;a href="../naming/naming-convention.ru.md"&gt;</bpt>правил именования<ept id="1">&lt;/a&gt;</ept>. Для удобства работы они могут быть объединены в директорию этого блока.</source>
+<target state="translated" xml:lang="en">Block files are grouped together based on common <bpt id="1">&lt;a href="../naming/naming-convention.en.md"&gt;</bpt>naming rules<ept id="1">&lt;/a&gt;</ept>.  For convenience, they can be grouped into a block directory.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu25" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;em&gt;</bpt>Зачем?<ept id="1">&lt;/em&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;em&gt;</bpt>Why?<ept id="1">&lt;/em&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu26" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Подключение в проект только необходимых блоков.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Блоки реализованы независимо. Это позволяет настраивать сборку так, чтобы в проект попадали только нужные блоки.</source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Only necessary blocks are included in the project<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Blocks are implemented as independent enteties. This enables us to configure a build in a way that ensures that only relevant blocks are included in the project.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu27" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;a preserve="1" name="project-levels"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></source>
+<target xml:lang="en" state="translated"><bpt id="1">&lt;a preserve="1" name="project-levels"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu28" resname="-----id" restype="x-h3" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Проект разделяется на уровни переопределения</source>
+<target state="translated" xml:lang="en">A project is divided into redefinition levels.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu29" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Конечная реализация блока может быть разделена по <bpt id="1">&lt;a href="#Примеры-использования-уровней-переопределения"&gt;</bpt>уровням переопределения<ept id="1">&lt;/a&gt;</ept>.</source>
+<target state="translated" xml:lang="en">The final implementation of a block can be split into <bpt id="1">&lt;a href="#examples-of-using-redefinition-levels"&gt;</bpt>redefinition levels<ept id="1">&lt;/a&gt;</ept>.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu30" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;em&gt;</bpt>Зачем?<ept id="1">&lt;/em&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;em&gt;</bpt>Why?<ept id="1">&lt;/em&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu31" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Отсутствие дублирования кода.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Вынесение общей реализации для всех платформ на отдельный уровень позволяет избежать дублирования кода и сократить время на отладку проекта.</source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>No code duplication.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Storing implementation common to all platforms on a separate level helps avoid code duplication and reduce debugging time.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu32" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Переопределение и доопределение блоков готовых библиотек.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Изменение блока библиотеки не требует его копирования на уровень проекта. Достаточно создать требуемый файл с правками или новым кодом на другом уровне переопределения и подключить в сборку.<ph id="4">&lt;br&gt;</ph></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Redefinition and extension of ready-made library blocks.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>To modify a library block, you don't need to copy it to the project level. You just need to create the necessary file with the changes or new code at another redefinition level and include it in the build.<ph id="4">&lt;br&gt;</ph></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu33" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;strong&gt;</bpt>Обновление подключенных в проект библиотек.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Разделение проекта на уровни позволяет изменять блоки, не затрагивая код библиотеки. При обновлении библиотеки модификация блоков сохраняется на другом уровне проекта.</source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;strong&gt;</bpt>Updating libraries linked to the project.<ept id="1">&lt;/strong&gt;</ept><ph id="2">&lt;br&gt;</ph><ph id="3">&lt;br /&gt;</ph>Dividing a project into distinct levels lets us modify blocks without affecting the library source code. If the library gets updated, the block modification is stored at a different level of the project.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu34" resname="-----id" restype="x-h2" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Организация файловой системы БЭМ-проекта</source>
+<target state="translated" xml:lang="en">File system organization for a BEM project</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu35" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Блоку соответствует директория в файловой системе. Имена блока и его директории совпадают.</source>
+<target state="translated" xml:lang="en">For every block, there's a directory in the file system. The directory is named after the block.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu36" restype="x-pre" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>blocks/
     input/     # Директория блока input
-    button/    # Директория блока button<ept id="1">&lt;/code&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>blocks/
+    button/    # Директория блока button<ept id="1">&lt;/code&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>blocks/
     input/     # input block directory
-    button/    # button block directory<ept id="1">&lt;/code&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu37" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Реализация блока разделена на отдельные файлы — файлы технологий. Имена файлов совпадают с именем блока. Расширение соответствует технологии.</source><target state="translated" xml:lang="en">A block implementation is divided into separate files known as technology files. The files all have the same name as the block. The extension of each file corresponds to its technology.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu38" restype="x-pre" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>blocks/
+    button/    # button block directory<ept id="1">&lt;/code&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu37" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Реализация блока разделена на отдельные файлы — файлы технологий. Имена файлов совпадают с именем блока. Расширение соответствует технологии.</source>
+<target state="translated" xml:lang="en">A block implementation is divided into separate files known as technology files. The files all have the same name as the block. The extension of each file corresponds to its technology.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu38" restype="x-pre" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>blocks/
     input/
         input.css       # Реализация блока `input` в технологии CSS
         input.js        # Реализация блока `input` в технологии JavaScript
     button/
         button.css
         button.js
-        button.png<ept id="1">&lt;/code&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>blocks/
+        button.png<ept id="1">&lt;/code&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>blocks/
     input/
         input.css       # `input` block implementation in CSS technology
         input.js        # `input` block implementation in JavaScript technology
     button/
         button.css
         button.js
-        button.png<ept id="1">&lt;/code&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu39" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Имена файлов и директорий <bpt id="1">&lt;a href="../definitions/definitions.ru.md#БЭМ-сущность"&gt;</bpt>БЭМ-сущностей<ept id="1">&lt;/a&gt;</ept> соответствуют <bpt id="2">&lt;a href="../naming/naming-convention.ru.md"&gt;</bpt>соглашению по именованию<ept id="2">&lt;/a&gt;</ept>:</source><target state="translated" xml:lang="en">Names of files and directories for <bpt id="1">&lt;a href="../definitions/definitions.en.md#bem-entity"&gt;</bpt>BEM entities<ept id="1">&lt;/a&gt;</ept> are based on the <bpt id="2">&lt;a href="../naming/naming-convention.en.md"&gt;</bpt>naming convention<ept id="2">&lt;/a&gt;</ept>:</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu40" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru">Элемент — <bpt id="1">&lt;code&gt;</bpt>block__elem.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input__box.css<ept id="2">&lt;/code&gt;</ept>).</source><target state="translated" xml:lang="en">Element — <bpt id="1">&lt;code&gt;</bpt>block__elem.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input__box.css<ept id="2">&lt;/code&gt;</ept>).</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu41" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru">Модификатор блока — <bpt id="1">&lt;code&gt;</bpt>block_mod_val.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input_type_search.css<ept id="2">&lt;/code&gt;</ept>) или <bpt id="3">&lt;code&gt;</bpt>block_mod.ext<ept id="3">&lt;/code&gt;</ept> (<bpt id="4">&lt;code&gt;</bpt>input_disabled.css<ept id="4">&lt;/code&gt;</ept>). Значение булевого модификатора не указывается.</source><target state="translated" xml:lang="en">Block modifier — <bpt id="1">&lt;code&gt;</bpt>block_mod_val.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input_type_search.css<ept id="2">&lt;/code&gt;</ept>) or <bpt id="3">&lt;code&gt;</bpt>block_mod.ext<ept id="3">&lt;/code&gt;</ept> (<bpt id="4">&lt;code&gt;</bpt>input_disabled.css<ept id="4">&lt;/code&gt;</ept>). Values of Boolean modifiers are not included.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu42" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru">Модификатор элемента — <bpt id="1">&lt;code&gt;</bpt>block__elem_mod_val.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input__clear_size_large.css<ept id="2">&lt;/code&gt;</ept>) или <bpt id="3">&lt;code&gt;</bpt>block__elem_mod.ext<ept id="3">&lt;/code&gt;</ept> (<bpt id="4">&lt;code&gt;</bpt>input__clear_visible.css<ept id="4">&lt;/code&gt;</ept>).</source><target state="translated" xml:lang="en">Element modifier — <bpt id="1">&lt;code&gt;</bpt>block__elem_mod_val.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input__clear_size_large.css<ept id="2">&lt;/code&gt;</ept>) or <bpt id="3">&lt;code&gt;</bpt>block__elem_mod.ext<ept id="3">&lt;/code&gt;</ept> (<bpt id="4">&lt;code&gt;</bpt>input__clear_visible.css<ept id="4">&lt;/code&gt;</ept>).</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu43" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Модификаторы и элементы выделяются в отдельные файлы и группируются в поддиректории блока с соответствующими именами.</source><target state="translated" xml:lang="en">Modifiers and elements are stored in separate files and are grouped into accordingly named block subdirectories.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu44" restype="x-pre" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>blocks/
+        button.png<ept id="1">&lt;/code&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu39" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Имена файлов и директорий <bpt id="1">&lt;a href="../definitions/definitions.ru.md#БЭМ-сущность"&gt;</bpt>БЭМ-сущностей<ept id="1">&lt;/a&gt;</ept> соответствуют <bpt id="2">&lt;a href="../naming/naming-convention.ru.md"&gt;</bpt>соглашению по именованию<ept id="2">&lt;/a&gt;</ept>:</source>
+<target state="translated" xml:lang="en">Names of files and directories for <bpt id="1">&lt;a href="../definitions/definitions.en.md#bem-entity"&gt;</bpt>BEM entities<ept id="1">&lt;/a&gt;</ept> are based on the <bpt id="2">&lt;a href="../naming/naming-convention.en.md"&gt;</bpt>naming convention<ept id="2">&lt;/a&gt;</ept>:</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu40" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Элемент — <bpt id="1">&lt;code&gt;</bpt>block__elem.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input__box.css<ept id="2">&lt;/code&gt;</ept>).</source>
+<target state="translated" xml:lang="en">Element — <bpt id="1">&lt;code&gt;</bpt>block__elem.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input__box.css<ept id="2">&lt;/code&gt;</ept>).</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu41" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Модификатор блока — <bpt id="1">&lt;code&gt;</bpt>block_mod_val.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input_type_search.css<ept id="2">&lt;/code&gt;</ept>) или <bpt id="3">&lt;code&gt;</bpt>block_mod.ext<ept id="3">&lt;/code&gt;</ept> (<bpt id="4">&lt;code&gt;</bpt>input_disabled.css<ept id="4">&lt;/code&gt;</ept>). Значение булевого модификатора не указывается.</source>
+<target state="translated" xml:lang="en">Block modifier — <bpt id="1">&lt;code&gt;</bpt>block_mod_val.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input_type_search.css<ept id="2">&lt;/code&gt;</ept>) or <bpt id="3">&lt;code&gt;</bpt>block_mod.ext<ept id="3">&lt;/code&gt;</ept> (<bpt id="4">&lt;code&gt;</bpt>input_disabled.css<ept id="4">&lt;/code&gt;</ept>). Values of Boolean modifiers are not included.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu42" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Модификатор элемента — <bpt id="1">&lt;code&gt;</bpt>block__elem_mod_val.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input__clear_size_large.css<ept id="2">&lt;/code&gt;</ept>) или <bpt id="3">&lt;code&gt;</bpt>block__elem_mod.ext<ept id="3">&lt;/code&gt;</ept> (<bpt id="4">&lt;code&gt;</bpt>input__clear_visible.css<ept id="4">&lt;/code&gt;</ept>).</source>
+<target state="translated" xml:lang="en">Element modifier — <bpt id="1">&lt;code&gt;</bpt>block__elem_mod_val.ext<ept id="1">&lt;/code&gt;</ept> (<bpt id="2">&lt;code&gt;</bpt>input__clear_size_large.css<ept id="2">&lt;/code&gt;</ept>) or <bpt id="3">&lt;code&gt;</bpt>block__elem_mod.ext<ept id="3">&lt;/code&gt;</ept> (<bpt id="4">&lt;code&gt;</bpt>input__clear_visible.css<ept id="4">&lt;/code&gt;</ept>).</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu43" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Модификаторы и элементы выделяются в отдельные файлы и группируются в поддиректории блока с соответствующими именами.</source>
+<target state="translated" xml:lang="en">Modifiers and elements are stored in separate files and are grouped into accordingly named block subdirectories.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu44" restype="x-pre" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>blocks/
     input/
         _type/                        # Директория модификатора `type`
             input_type_search.css     # Реализация модификатора `type` со значением `search` в технологии CSS
@@ -108,7 +201,8 @@
     button/
         button.css
         button.js
-        button.png<ept id="1">&lt;/code&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>blocks/
+        button.png<ept id="1">&lt;/code&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>blocks/
     input/
         _type/                        # `type` modifier directory
             input_type_search.css     # Implementation of modifier `type` with value `search` in CSS technology
@@ -119,9 +213,14 @@
     button/
         button.css
         button.js
-        button.png<ept id="1">&lt;/code&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu45" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">При создании модификаторов с разными значениями (например, <bpt id="1">&lt;code&gt;</bpt>popup_target_anchor.ext<ept id="1">&lt;/code&gt;</ept> и <bpt id="2">&lt;code&gt;</bpt>popup_target_position.ext<ept id="2">&lt;/code&gt;</ept>), общий код может быть вынесен в отдельный файл (<bpt id="3">&lt;code&gt;</bpt>popup_target.ext<ept id="3">&lt;/code&gt;</ept>) без указания значения модификатора в имени.</source><target state="translated" xml:lang="en">If there are modifiers that differ in value (e.g., <bpt id="1">&lt;code&gt;</bpt>popup_target_anchor.ext<ept id="1">&lt;/code&gt;</ept> and <bpt id="2">&lt;code&gt;</bpt>popup_target_position.ext<ept id="2">&lt;/code&gt;</ept>), the shared code can be stored in a separate file (popup_target.ext) with no modifier value included in the name.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu46" restype="x-pre" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>blocks/
+        button.png<ept id="1">&lt;/code&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu45" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">При создании модификаторов с разными значениями (например, <bpt id="1">&lt;code&gt;</bpt>popup_target_anchor.ext<ept id="1">&lt;/code&gt;</ept> и <bpt id="2">&lt;code&gt;</bpt>popup_target_position.ext<ept id="2">&lt;/code&gt;</ept>), общий код может быть вынесен в отдельный файл (<bpt id="3">&lt;code&gt;</bpt>popup_target.ext<ept id="3">&lt;/code&gt;</ept>) без указания значения модификатора в имени.</source>
+<target state="translated" xml:lang="en">If there are modifiers that differ in value (e.g., <bpt id="1">&lt;code&gt;</bpt>popup_target_anchor.ext<ept id="1">&lt;/code&gt;</ept> and <bpt id="2">&lt;code&gt;</bpt>popup_target_position.ext<ept id="2">&lt;/code&gt;</ept>), the shared code can be stored in a separate file (popup_target.ext) with no modifier value included in the name.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu46" restype="x-pre" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>blocks/
     popup/
         _target/
             popup_target.css            # Общий код модификатора `target`
@@ -130,7 +229,8 @@
         _visible/
             popup_visible.css           # Булевый модификатор `visible`
     popup.css
-    popup.js<ept id="1">&lt;/code&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>blocks/
+    popup.js<ept id="1">&lt;/code&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>blocks/
     popup/
         _target/
             popup_target.css            # Common code of  modifier `target`
@@ -139,56 +239,96 @@
         _visible/
             popup_visible.css           # Boolean modifier `visible`
     popup.css
-    popup.js<ept id="1">&lt;/code&gt;</ept></target><?sid 1160105764-0?></trans-unit>
+    popup.js<ept id="1">&lt;/code&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
       <trans-unit id="tu47" restype="x-paragraph" xml:space="preserve" approved="yes">
 <source xml:lang="ru"><bpt id="1">&lt;a preserve="1" name="examples"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></source>
-   <target xml:lang="en" state="translated"><bpt id="1">&lt;a preserve="1" name="examples"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu48" resname="---id" restype="x-h3" xml:space="preserve" approved="yes"><source xml:lang="ru">Примеры из жизни</source><target state="translated" xml:lang="en">Real-life examples</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu50" restype="x-data-url" xml:space="preserve" approved="yes"><source xml:lang="ru">https://github.com/bem/bem-core/tree/v2/common.blocks/page</source><target state="translated" xml:lang="en">https://github.com/bem/bem-core/tree/v2/common.blocks/page</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu49" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="https://github.com/bem/bem-core/tree/v2/common.blocks/page" [#$tu50]&gt;</bpt>bem-core<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="https://github.com/bem/bem-core/tree/v2/common.blocks/page" [#$tu50]&gt;</bpt>bem-core<ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu52" restype="x-data-url" xml:space="preserve" approved="yes"><source xml:lang="ru">https://github.com/bem/bem-components/tree/v2/common.blocks/button</source><target state="translated" xml:lang="en">https://github.com/bem/bem-components/tree/v2/common.blocks/button</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="48" match-quality="76" tool="Swordfish">
+<target xml:lang="en" state="translated"><bpt id="1">&lt;a preserve="1" name="examples"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu48" resname="---id" restype="x-h3" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Примеры из жизни</source>
+<target state="translated" xml:lang="en">Real-life examples</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu50" restype="x-data-url" xml:space="preserve" approved="yes">
 <source xml:lang="ru">https://github.com/bem/bem-core/tree/v2/common.blocks/page</source>
 <target state="translated" xml:lang="en">https://github.com/bem/bem-core/tree/v2/common.blocks/page</target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu51" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="https://github.com/bem/bem-components/tree/v2/common.blocks/button" [#$tu52]&gt;</bpt>bem-components<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="https://github.com/bem/bem-components/tree/v2/common.blocks/button" [#$tu52]&gt;</bpt>bem-components<ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu49" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;a href="https://github.com/bem/bem-core/tree/v2/common.blocks/page" [#$tu50]&gt;</bpt>bem-core<ept id="1">&lt;/a&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="https://github.com/bem/bem-core/tree/v2/common.blocks/page" [#$tu50]&gt;</bpt>bem-core<ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu52" restype="x-data-url" xml:space="preserve" approved="yes">
+<source xml:lang="ru">https://github.com/bem/bem-components/tree/v2/common.blocks/button</source>
+<target state="translated" xml:lang="en">https://github.com/bem/bem-components/tree/v2/common.blocks/button</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu51" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;a href="https://github.com/bem/bem-components/tree/v2/common.blocks/button" [#$tu52]&gt;</bpt>bem-components<ept id="1">&lt;/a&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="https://github.com/bem/bem-components/tree/v2/common.blocks/button" [#$tu52]&gt;</bpt>bem-components<ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
       <trans-unit id="tu53" restype="x-paragraph" xml:space="preserve" approved="yes">
 <source xml:lang="ru"><bpt id="1">&lt;a preserve="1" name="level"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></source>
-   <target xml:lang="en" state="translated"><bpt id="1">&lt;a preserve="1" name="level"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu54" resname="----id" restype="x-h2" xml:space="preserve" approved="yes"><source xml:lang="ru">Примеры использования уровней переопределения</source><target state="translated" xml:lang="en">Examples of using redefinition levels</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="5" match-quality="99" tool="Swordfish">
-<source xml:lang="ru"><bpt id="1">&lt;a href="#Примеры-использования-уровней-переопределения"&gt;</bpt>Примеры использования уровней переопределения<ept id="1">&lt;/a&gt;</ept></source>
-<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#examples-of-using-redefinition-levels"&gt;</bpt>Examples of using redefition levels<ept id="1">&lt;/a&gt;</ept></target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu55" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Реализация блока может быть разделена по <bpt id="1">&lt;a href="../definitions/definitions.ru.md#Уровень-переопределения"&gt;</bpt>уровням переопределения<ept id="1">&lt;/a&gt;</ept>.</source><target state="translated" xml:lang="en">The implementation of a block can be divided into <bpt id="1">&lt;a href="../definitions/definitions.en.md#redefinition-level"&gt;</bpt>redefinition levels<ept id="1">&lt;/a&gt;</ept>.</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="28" match-quality="85" tool="Swordfish">
-<source xml:lang="ru">Конечная реализация блока может быть разделена по <bpt id="1">&lt;a href="#Примеры-использования-уровней-переопределения"&gt;</bpt>уровням переопределения<ept id="1">&lt;/a&gt;</ept>.</source>
-<target state="translated" xml:lang="en">The final implementation of a block can be split into <bpt id="1">&lt;a href="#examples-of-using-redefinition-levels"&gt;</bpt>redefinition levels<ept id="1">&lt;/a&gt;</ept>.</target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu56" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Рассмотрим несколько примеров:</source><target state="translated" xml:lang="en">Let's take a few examples:</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu57" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Подключение-библиотеки"&gt;</bpt>Подключение библиотеки<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#linking-a-library"&gt;</bpt>Linking a library<ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu58" restype="x-li" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;a href="#Разделение-проекта-на-платформы"&gt;</bpt>Разделение проекта на платформы<ept id="1">&lt;/a&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#dividing-a-project-into-platforms"&gt;</bpt>Dividing a project into platforms<ept id="1">&lt;/a&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu59" resname="--id" restype="x-h3" xml:space="preserve" approved="yes"><source xml:lang="ru">Подключение библиотеки</source><target state="translated" xml:lang="en">Linking a library</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="56" match-quality="99" tool="Swordfish">
+<target xml:lang="en" state="translated"><bpt id="1">&lt;a preserve="1" name="level"&gt;</bpt><ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu54" resname="----id" restype="x-h2" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Примеры использования уровней переопределения</source>
+<target state="translated" xml:lang="en">Examples of using redefinition levels</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu55" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Реализация блока может быть разделена по <bpt id="1">&lt;a href="../definitions/definitions.ru.md#Уровень-переопределения"&gt;</bpt>уровням переопределения<ept id="1">&lt;/a&gt;</ept>.</source>
+<target state="translated" xml:lang="en">The implementation of a block can be divided into <bpt id="1">&lt;a href="../definitions/definitions.en.md#redefinition-level"&gt;</bpt>redefinition levels<ept id="1">&lt;/a&gt;</ept>.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu56" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Рассмотрим несколько примеров:</source>
+<target state="translated" xml:lang="en">Let's take a few examples:</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu57" restype="x-li" xml:space="preserve" approved="yes">
 <source xml:lang="ru"><bpt id="1">&lt;a href="#Подключение-библиотеки"&gt;</bpt>Подключение библиотеки<ept id="1">&lt;/a&gt;</ept></source>
 <target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#linking-a-library"&gt;</bpt>Linking a library<ept id="1">&lt;/a&gt;</ept></target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu60" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">В проект можно подключить библиотеку как отдельный уровень. Изменять (до- или переопределять) блоки можно на другом уровне проекта. При сборке подключится исходная реализация блоков с уровня библиотеки и переопределенная — с уровня проекта.</source><target state="translated" xml:lang="en">A library can be linked to a project as a separate level. Blocks can be modified (extended or redefined) at another project level. During the build process the original block implementation will be linked from the library level and the redefined one from the project level.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu61" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Такое разделение позволяет сохранить изменения в блоках при обновлении библиотеки. Код самой библиотеки обновится, а специфическая реализация блоков проекта останется прежней, так как находится на другом уровне проекта.</source><target state="translated" xml:lang="en">Such an arrangement allows us to preserve changes made to the blocks if the library gets updated — the library source code will be updated while the specific implementation of the project blocks will remain the same because it is stored at a different level.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu62" restype="x-pre" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>library.blocks/
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu58" restype="x-li" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;a href="#Разделение-проекта-на-платформы"&gt;</bpt>Разделение проекта на платформы<ept id="1">&lt;/a&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#dividing-a-project-into-platforms"&gt;</bpt>Dividing a project into platforms<ept id="1">&lt;/a&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu59" resname="--id" restype="x-h3" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Подключение библиотеки</source>
+<target state="translated" xml:lang="en">Linking a library</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu60" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">В проект можно подключить библиотеку как отдельный уровень. Изменять (до- или переопределять) блоки можно на другом уровне проекта. При сборке подключится исходная реализация блоков с уровня библиотеки и переопределенная — с уровня проекта.</source>
+<target state="translated" xml:lang="en">A library can be linked to a project as a separate level. Blocks can be modified (extended or redefined) at another project level. During the build process the original block implementation will be linked from the library level and the redefined one from the project level.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu61" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Такое разделение позволяет сохранить изменения в блоках при обновлении библиотеки. Код самой библиотеки обновится, а специфическая реализация блоков проекта останется прежней, так как находится на другом уровне проекта.</source>
+<target state="translated" xml:lang="en">Such an arrangement allows us to preserve changes made to the blocks if the library gets updated — the library source code will be updated while the specific implementation of the project blocks will remain the same because it is stored at a different level.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu62" restype="x-pre" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>library.blocks/
     button/
         button.css    # CSS-реализация кнопки в подключенной библиотеке (высота 20px)
 project.blocks/
     button/
-        button.css    # Переопределение CSS-реализации кнопки (высота 24px)<ept id="1">&lt;/code&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>library.blocks/
+        button.css    # Переопределение CSS-реализации кнопки (высота 24px)<ept id="1">&lt;/code&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>library.blocks/
     button/
         button.css    # CSS implementation of the button in the linked library (height 20px)
 project.blocks/
     button/
-        button.css    # Redefinition of CSS implementation of the button (height 24px)<ept id="1">&lt;/code&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu63" resname="----id" restype="x-h3" xml:space="preserve" approved="yes"><source xml:lang="ru">Разделение проекта на платформы</source><target state="translated" xml:lang="en">Dividing a project into platforms</target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="57" match-quality="99" tool="Swordfish">
-<source xml:lang="ru"><bpt id="1">&lt;a href="#Разделение-проекта-на-платформы"&gt;</bpt>Разделение проекта на платформы<ept id="1">&lt;/a&gt;</ept></source>
-<target state="translated" xml:lang="en"><bpt id="1">&lt;a href="#dividing-a-project-into-platforms"&gt;</bpt>Dividing a project into platforms<ept id="1">&lt;/a&gt;</ept></target>
-</alt-trans></trans-unit>
-      <trans-unit id="tu64" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Проект разделен на платформы (<bpt id="1">&lt;code&gt;</bpt>mobile<ept id="1">&lt;/code&gt;</ept> и <bpt id="2">&lt;code&gt;</bpt>desktop<ept id="2">&lt;/code&gt;</ept>) и соответствующие уровни переопределения в файловой системе. Уровень <bpt id="3">&lt;code&gt;</bpt>common<ept id="3">&lt;/code&gt;</ept> содержит общую реализацию блоков для всех платформ. На уровне <bpt id="4">&lt;code&gt;</bpt>desktop<ept id="4">&lt;/code&gt;</ept> и <bpt id="5">&lt;code&gt;</bpt>mobile<ept id="5">&lt;/code&gt;</ept> находится специфика реализаций блоков, характерная для каждой из платформ.</source><target state="translated" xml:lang="en">A project is divided into platforms (<bpt id="1">&lt;code&gt;</bpt>mobile<ept id="1">&lt;/code&gt;</ept> and <bpt id="2">&lt;code&gt;</bpt>desktop<ept id="2">&lt;/code&gt;</ept>) and into respective redefinition levels in the file system. The <bpt id="3">&lt;code&gt;</bpt>common<ept id="3">&lt;/code&gt;</ept> level contains the implementation of blocks that is common to both platforms. The <bpt id="4">&lt;code&gt;</bpt>desktop<ept id="4">&lt;/code&gt;</ept> and <bpt id="5">&lt;code&gt;</bpt>mobile<ept id="5">&lt;/code&gt;</ept> levels contain platform-specific block implementations.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu65" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Рассмотрим на примере:</source><target state="translated" xml:lang="en">Let's look at an example:</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu66" restype="x-pre" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>common.blocks/
+        button.css    # Redefinition of CSS implementation of the button (height 24px)<ept id="1">&lt;/code&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu63" resname="----id" restype="x-h3" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Разделение проекта на платформы</source>
+<target state="translated" xml:lang="en">Dividing a project into platforms</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu64" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Проект разделен на платформы (<bpt id="1">&lt;code&gt;</bpt>mobile<ept id="1">&lt;/code&gt;</ept> и <bpt id="2">&lt;code&gt;</bpt>desktop<ept id="2">&lt;/code&gt;</ept>) и соответствующие уровни переопределения в файловой системе. Уровень <bpt id="3">&lt;code&gt;</bpt>common<ept id="3">&lt;/code&gt;</ept> содержит общую реализацию блоков для всех платформ. На уровне <bpt id="4">&lt;code&gt;</bpt>desktop<ept id="4">&lt;/code&gt;</ept> и <bpt id="5">&lt;code&gt;</bpt>mobile<ept id="5">&lt;/code&gt;</ept> находится специфика реализаций блоков, характерная для каждой из платформ.</source>
+<target state="translated" xml:lang="en">A project is divided into platforms (<bpt id="1">&lt;code&gt;</bpt>mobile<ept id="1">&lt;/code&gt;</ept> and <bpt id="2">&lt;code&gt;</bpt>desktop<ept id="2">&lt;/code&gt;</ept>) and into respective redefinition levels in the file system. The <bpt id="3">&lt;code&gt;</bpt>common<ept id="3">&lt;/code&gt;</ept> level contains the implementation of blocks that is common to both platforms. The <bpt id="4">&lt;code&gt;</bpt>desktop<ept id="4">&lt;/code&gt;</ept> and <bpt id="5">&lt;code&gt;</bpt>mobile<ept id="5">&lt;/code&gt;</ept> levels contain platform-specific block implementations.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu65" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Рассмотрим на примере:</source>
+<target state="translated" xml:lang="en">Let's look at an example:</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu66" restype="x-pre" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>common.blocks/
     button/
         button.css    # Базовая CSS-реализация кнопки
 desktop.blocks/
@@ -196,7 +336,8 @@ desktop.blocks/
         button.css    # Особенности кнопки для desktop-платформы
 mobile.blocks/
     button/
-        button.css    # Особенности кнопки для mobile-платформы<ept id="1">&lt;/code&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>common.blocks/
+        button.css    # Особенности кнопки для mobile-платформы<ept id="1">&lt;/code&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>common.blocks/
     button/
         button.css    # Generic CSS implementation of the button
 desktop.blocks/
@@ -204,20 +345,28 @@ desktop.blocks/
         button.css    # Desktop platform-specific button features
 mobile.blocks/
     button/
-        button.css    # Mobile platform-specific button features<ept id="1">&lt;/code&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu67" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">При сборке в файл <bpt id="1">&lt;code&gt;</bpt>desktop.css<ept id="1">&lt;/code&gt;</ept> попадут все базовые CSS-правила кнопки с уровня <bpt id="2">&lt;code&gt;</bpt>common<ept id="2">&lt;/code&gt;</ept> и переопределенные правила с уровня <bpt id="3">&lt;code&gt;</bpt>desktop<ept id="3">&lt;/code&gt;</ept>.</source><target state="translated" xml:lang="en">During the build process, all the generic CSS rules for the button will be included in the <bpt id="1">&lt;code&gt;</bpt>desktop.css<ept id="1">&lt;/code&gt;</ept> file from the <bpt id="2">&lt;code&gt;</bpt>common<ept id="2">&lt;/code&gt;</ept> level, and the redefined rules from the <bpt id="3">&lt;code&gt;</bpt>desktop<ept id="3">&lt;/code&gt;</ept> level.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu68" restype="x-pre" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>@import(common.blocks/button/button.css);    # Базовые CSS-правила
-@import(desktop.blocks/button/button.css);   # Особенности кнопки для desktop-платформы<ept id="1">&lt;/code&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>@import(common.blocks/button/button.css);    # Generic CSS rules
-@import(desktop.blocks/button/button.css);   # desktop platform-specific button features<ept id="1">&lt;/code&gt;</ept></target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu69" restype="x-paragraph" xml:space="preserve" approved="yes"><source xml:lang="ru">Файл <bpt id="1">&lt;code&gt;</bpt>mobile.css<ept id="1">&lt;/code&gt;</ept> будет включать базовые CSS-правила кнопки с уровня <bpt id="2">&lt;code&gt;</bpt>common<ept id="2">&lt;/code&gt;</ept> и переопределенные правила с уровня <bpt id="3">&lt;code&gt;</bpt>mobile<ept id="3">&lt;/code&gt;</ept>.</source><target state="translated" xml:lang="en">The <bpt id="1">&lt;code&gt;</bpt>mobile.css<ept id="1">&lt;/code&gt;</ept> file will include the generic CSS rules for the button from the <bpt id="2">&lt;code&gt;</bpt>common<ept id="2">&lt;/code&gt;</ept> level and the redefined rules from the <bpt id="3">&lt;code&gt;</bpt>mobile<ept id="3">&lt;/code&gt;</ept> level.</target><?sid 1160105764-0?></trans-unit>
-      <trans-unit id="tu70" restype="x-pre" xml:space="preserve" approved="yes"><source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>@import(common.blocks/button/button.css);    # Базовые CSS-правила
-@import(mobile.blocks/button/button.css);    # Особенности кнопки для mobile-платформы<ept id="1">&lt;/code&gt;</ept></source><target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>@import(common.blocks/button/button.css);    # Generic CSS rules
-@import(mobile.blocks/button/button.css);    # mobile platform-specific button features<ept id="1">&lt;/code&gt;</ept></target><?sid 1160105764-0?><alt-trans origin="autoFuzzy" ts="67" match-quality="84" tool="Swordfish">
+        button.css    # Mobile platform-specific button features<ept id="1">&lt;/code&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu67" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">При сборке в файл <bpt id="1">&lt;code&gt;</bpt>desktop.css<ept id="1">&lt;/code&gt;</ept> попадут все базовые CSS-правила кнопки с уровня <bpt id="2">&lt;code&gt;</bpt>common<ept id="2">&lt;/code&gt;</ept> и переопределенные правила с уровня <bpt id="3">&lt;code&gt;</bpt>desktop<ept id="3">&lt;/code&gt;</ept>.</source>
+<target state="translated" xml:lang="en">During the build process, all the generic CSS rules for the button will be included in the <bpt id="1">&lt;code&gt;</bpt>desktop.css<ept id="1">&lt;/code&gt;</ept> file from the <bpt id="2">&lt;code&gt;</bpt>common<ept id="2">&lt;/code&gt;</ept> level, and the redefined rules from the <bpt id="3">&lt;code&gt;</bpt>desktop<ept id="3">&lt;/code&gt;</ept> level.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu68" restype="x-pre" xml:space="preserve" approved="yes">
 <source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>@import(common.blocks/button/button.css);    # Базовые CSS-правила
 @import(desktop.blocks/button/button.css);   # Особенности кнопки для desktop-платформы<ept id="1">&lt;/code&gt;</ept></source>
 <target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>@import(common.blocks/button/button.css);    # Generic CSS rules
-@import(desktop.blocks/button/button.css);   # Button specifics for the desktop platform<ept id="1">&lt;/code&gt;</ept></target>
-</alt-trans></trans-unit>
+@import(desktop.blocks/button/button.css);   # desktop platform-specific button features<ept id="1">&lt;/code&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu69" restype="x-paragraph" xml:space="preserve" approved="yes">
+<source xml:lang="ru">Файл <bpt id="1">&lt;code&gt;</bpt>mobile.css<ept id="1">&lt;/code&gt;</ept> будет включать базовые CSS-правила кнопки с уровня <bpt id="2">&lt;code&gt;</bpt>common<ept id="2">&lt;/code&gt;</ept> и переопределенные правила с уровня <bpt id="3">&lt;code&gt;</bpt>mobile<ept id="3">&lt;/code&gt;</ept>.</source>
+<target state="translated" xml:lang="en">The <bpt id="1">&lt;code&gt;</bpt>mobile.css<ept id="1">&lt;/code&gt;</ept> file will include the generic CSS rules for the button from the <bpt id="2">&lt;code&gt;</bpt>common<ept id="2">&lt;/code&gt;</ept> level and the redefined rules from the <bpt id="3">&lt;code&gt;</bpt>mobile<ept id="3">&lt;/code&gt;</ept> level.</target>
+<?sid 1160105764-0?></trans-unit>
+      <trans-unit id="tu70" restype="x-pre" xml:space="preserve" approved="yes">
+<source xml:lang="ru"><bpt id="1">&lt;code&gt;</bpt>@import(common.blocks/button/button.css);    # Базовые CSS-правила
+@import(mobile.blocks/button/button.css);    # Особенности кнопки для mobile-платформы<ept id="1">&lt;/code&gt;</ept></source>
+<target state="translated" xml:lang="en"><bpt id="1">&lt;code&gt;</bpt>@import(common.blocks/button/button.css);    # Generic CSS rules
+@import(mobile.blocks/button/button.css);    # mobile platform-specific button features<ept id="1">&lt;/code&gt;</ept></target>
+<?sid 1160105764-0?></trans-unit>
     </body>
   </file>
 </xliff>
